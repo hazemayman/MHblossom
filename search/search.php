@@ -45,7 +45,7 @@
 <html>
     <head>
         <title>MH Blossoms - Search</title>
-        <link rel="icon" type="image/x-icon" href="../images/logo.png">
+        <link rel="icon" type="image/x-icon" href="logo.png">
         <link type="text/css" rel="stylesheet" href="Css/navfooter.css">
         <link type="text/css" rel="stylesheet" href="Css/search.css">
         <link type="text/css" rel="stylesheet" href="Css/bookCard.css">

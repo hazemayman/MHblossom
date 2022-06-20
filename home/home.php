@@ -11,20 +11,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
     <head>
         <title>MH Blossoms</title>
-        <link rel="icon" type="image/x-icon" href="images/logo.png">
-        <link type="text/css" rel="stylesheet" href="navfooter.css">
+        <link rel="icon" type="image/x-icon" href="logo.png">
+        <link type="text/css" rel="stylesheet" href="Css/navfooter.css">
 
         <!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
     <!--===============================================================================================-->
     <!--===============================================================================================-->
     <!--===============================================================================================-->
-        <link type="text/css" rel="stylesheet" href="home.css">
+        <link type="text/css" rel="stylesheet" href="Css/home.css">
         <script src="https://kit.fontawesome.com/ee580cee9f.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
         <nav class="topnav" id="myTopnav">
-            <img class="navlogo" src="images/logo.png" alt="logo">
+            <img class="navlogo" src="../images/logo.png" alt="logo">
             <p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p>
             <a href="../home/home.php" class="active first-navigation-link">Home</a>
             <a href="../browse/browse.php">Browse</a>
@@ -74,8 +74,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div style="margin-top: 30px;">
                     <h3 style="font-family: serif; font-size: 22px">Search and browse books</h3>
                     <div class="search-container">
-                        <input class="search-text" type="text">
+                    <form action="../search/search.php" method="get">
+                        <input class="search-text" type="text" name="searchResult">
                         <button class="search-button">Search</button>
+                    </form>
                     </div>
                 </div>
                 <div class="table">
@@ -105,7 +107,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                             <td><a href="">Fiction</a></td>
                         </tr>
                     </table>
-                    <img src="images/books.jpg" alt="books">
+                    <img src="../images/books.jpg" alt="books">
                 </div>
             </div>
             <div class="right">
@@ -114,14 +116,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
                 <div class="news">
                     <h3 style="font-family: serif; font-size: 22px; margin-bottom: 10px;" >News and Interviews</h3>
                     <a href="https://www.goodreads.com/book/popular_by_date" target="_blank"style="font-family: sans-serif; margin-left: -20px;"><b>Most popular books published in 2022</b></a>
-                    <img src="images/popular.jpg" alt="Popular Books" />
+                    <img src="../images/popular.jpg" alt="Popular Books" />
                 </div>
             </div>
         </div>
    
         <footer>
             <div class="row">
-                <div class="col" style="text-align:center;"><img class="logo" src="images/logo.png" alt="logo"><br><p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p></div>
+                <div class="col" style="text-align:center;"><img class="logo" src="../images/logo.png" alt="logo"><br><p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p></div>
                 <div class="col">
                     <h3>Company<div class="underline"></div></h3>
                     <p class="footerText"><a href="">About Us</a></p>
@@ -148,6 +150,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
             <p class="copyrights">MH Blossoms © 2022 - All rights reserved.</p>
             <p class="copyrights">Made with ❤️ by Mariam and Hazem.</p>
         </footer>
-        <script src="home.js"></script>
+        <script src="scripts/home.js"></script>
     </body>
 </html>

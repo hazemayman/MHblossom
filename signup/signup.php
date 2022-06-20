@@ -26,42 +26,41 @@
         $username = $_POST["username"]; 
         $password = $_POST["pass"]; 
         $email = $_POST["email"];
-        
-        $sql = "Select * from User where UserName='$username'";
-        
+    
+        $sql = "Select * from User where UserName='$username'"; 
         $result = mysqli_query($conn, $sql);
-        
         $num = mysqli_num_rows($result); 
-        
         // This sql query is use to check if
         // the username is already present 
         // or not in our Database
         if($num == 0) {
-        
-            $hash = password_hash($password, 
-                                PASSWORD_DEFAULT);
-                
-            // Password Hashing is used here. 
-            $sql = "INSERT INTO User ( username, 
-                password) VALUES ('$username', 
-                '$password')";
-    
+            $sql = "Select * from User where Email='$email'"; 
             $result = mysqli_query($conn, $sql);
+            $num = mysqli_num_rows($result); 
+            if($num == 0){
+                $sql = "INSERT INTO User ( username, 
+                password,Email) VALUES ('$username', 
+                '$password' , '$email')";
     
-            if ($result) {
-                $showAlert = true; 
-                session_start();
-                $_SESSION['Signup']="true";
-                header("location: ../Login/login.php");
-                
-            }
-         
-        }// end if 
+                $result = mysqli_query($conn, $sql);
         
-       if($num>0) 
-       {
-          $exists="Username not available"; 
-       } 
+                if ($result) {
+                    $showAlert = true; 
+                    session_start();
+                    $_SESSION['Signup']="true";
+                    header("location: ../Login/login.php");
+                    
+                }
+            }else{
+                $exists="Email Already registered"; 
+            }
+            // Password Hashing is used here. 
+           
+         
+        }else{
+            $exists="Username not available"; 
+        }// end if 
+
         
     }//end if   
         
@@ -73,7 +72,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up</title>
-        <link rel="icon" type="image/x-icon" href="../images/logo.png">
+        <link rel="icon" type="image/x-icon" href="logo.png">
 
 
     <!--===============================================================================================-->

@@ -31,7 +31,7 @@ session_start();
 <html>
     <head>
         <title>MH Blossoms - Author</title>
-        <link rel="icon" type="image/x-icon" href="../images/logo.png">
+        <link rel="icon" type="image/x-icon" href="logo.png">
         <link type="text/css" rel="stylesheet" href="Css/navfooter.css"> 
         <link type="text/css" rel="stylesheet" href="Css/author.css"> 
         <link type="text/css" rel="stylesheet" href="Css/bookCard.css"> 

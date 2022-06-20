@@ -1,5 +1,5 @@
 {
-    "IMAGES_DIR" : ".\\images",
+    "IMAGES_DIR" : "..\\images",
     "USERNAME" : "test",
     "PASSWORD" : "test123",
     "DATABASENAME" : "mhbooks",

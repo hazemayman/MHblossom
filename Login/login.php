@@ -3,8 +3,8 @@
 <?php
 session_start();
     $servername = "localhost";
-    $username = "Mariam";
-    $password = "Mfawzii22@";
+    $username = "test";
+    $password = "test123";
     $dbname = "mhbooks";
 
     if(isset($_SESSION['Active'])){
@@ -69,7 +69,7 @@ session_start();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
-        <link rel="icon" type="image/x-icon" href="images/logo.png">
+        <link rel="icon" type="image/x-icon" href="logo.png">
 
         
     <!--===============================================================================================-->
@@ -98,7 +98,7 @@ session_start();
     <body>
         <a href="#myTopnav" id="myBtn" title="Go to top">▲</a>
         <nav class="topnav" id="myTopnav">
-                <img class="navlogo" src="./images/logo.png" alt="logo">
+                <img class="navlogo" src="../images/logo.png" alt="logo">
                 <p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p>
                 <a href="../home/home.php" class="first-navigation-link">Home</a>
                 <a href="../browse/browse.php">Browse</a>

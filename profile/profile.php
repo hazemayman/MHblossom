@@ -64,7 +64,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MH Blossoms - Profile</title>
-    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="icon" type="image/x-icon" href="logo.png">
     <link rel="stylesheet" type="text/css" href="Css/style.css"/>
     <link rel="stylesheet" type="text/css" href="Css/navfooter.css"/>
     <script src="https://kit.fontawesome.com/ee580cee9f.js" crossorigin="anonymous"></script>
@@ -74,11 +74,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <!-- here the icon -->
     <a href="#myTopnav" id="myBtn" title="Go to top">▲</a>
     <nav class="topnav" id="myTopnav">
-            <img class="navlogo" src="./images/logo.png" alt="logo">
-            <p style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p>
+            <img class="navlogo" src="../images/logo.png" alt="logo">
+            <p class="logo-name">Blossoms</p>
             <a href="../home/home.php" class="first-navigation-link">Home</a>
             <a href="../browse/browse.php">Browse</a>
-            <a  id= "last-navigation-link" href="#contact">Search</a>
+            <a  id= "last-navigation-link" href="../search/search.php">Search</a>
           <div class="search-container">
                 <form action="../search/search.php" method="get">
                     <input class="search-text" type="text" name="searchResult">

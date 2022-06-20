@@ -27,7 +27,7 @@
 <html>
     <head>
         <title>MH Blossoms - Quotes</title>
-        <link rel="icon" type="image/x-icon" href="../images/logo.png">
+        <link rel="icon" type="image/x-icon" href="logo.png">
         <link type="text/css" rel="stylesheet" href="Css/navfooter.css">
         <link type="text/css" rel="stylesheet" href="Css/quotes.css">
         <script src="https://kit.fontawesome.com/ee580cee9f.js" crossorigin="anonymous"></script>
@@ -35,7 +35,7 @@
     <body>
         <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
         <nav class="topnav" id="myTopnav">
-            <img class="navlogo" src="images/logo.png" alt="logo">
+            <img class="navlogo" src="../images/logo.png" alt="logo">
             <p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p>
             <a href="../home/home.php" class="first-navigation-link">Home</a>
             <a href="../browse/browse.php">Browse</a>
@@ -145,7 +145,7 @@
         </div> -->
         <footer>
             <div class="row">
-                <div class="col" style="text-align:center;"><img class="logo" src="images/logo.png" alt="logo"><br><p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p></div>
+                <div class="col" style="text-align:center;"><img class="logo" src="../images/logo.png" alt="logo"><br><p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p></div>
                 <div class="col">
                     <h3>Company<div class="underline"></div></h3>
                     <p class="footerText"><a href="">About Us</a></p>
