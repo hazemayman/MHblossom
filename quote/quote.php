@@ -4,8 +4,8 @@
 
 
     $servername = "localhost";
-    $username = "donzoma09";
-    $password = "lambergeneko09";
+    $username = "test";
+    $password = "test123";
     $dbname = "mhbooks";
 
     // Create connection
@@ -27,7 +27,7 @@
 <html>
     <head>
         <title>MH Blossoms - Quotes</title>
-        <link rel="icon" type="image/x-icon" href="images/logo.png">
+        <link rel="icon" type="image/x-icon" href="../images/logo.png">
         <link type="text/css" rel="stylesheet" href="Css/navfooter.css">
         <link type="text/css" rel="stylesheet" href="Css/quotes.css">
         <script src="https://kit.fontawesome.com/ee580cee9f.js" crossorigin="anonymous"></script>

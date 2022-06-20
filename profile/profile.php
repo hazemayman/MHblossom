@@ -6,8 +6,8 @@ if(! isset($_SESSION['Active'])){
 }   
 if($_SERVER["REQUEST_METHOD"] == "POST") {
     $servername = "localhost";
-    $username = "donzoma09";
-    $password = "lambergeneko09";
+    $username = "test";
+    $password = "test123";
     $dbname = "mhbooks";
     $condition = false;
     // Create connection
@@ -63,7 +63,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>book card</title>
+    <title>MH Blossoms - Profile</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
     <link rel="stylesheet" type="text/css" href="Css/style.css"/>
     <link rel="stylesheet" type="text/css" href="Css/navfooter.css"/>
     <script src="https://kit.fontawesome.com/ee580cee9f.js" crossorigin="anonymous"></script>
@@ -130,8 +131,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
         ?>
 <?php
     $servername = "localhost";
-    $username = "donzoma09";
-    $password = "lambergeneko09";
+    $username = "test";
+    $password = "test123";
     $dbname = "mhbooks";
 
     // Create connection

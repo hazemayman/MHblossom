@@ -3,8 +3,8 @@
 <?php
 session_start();
     $servername = "localhost";
-    $username = "donzoma09";
-    $password = "lambergeneko09";
+    $username = "Mariam";
+    $password = "Mfawzii22@";
     $dbname = "mhbooks";
 
     if(isset($_SESSION['Active'])){
@@ -69,9 +69,9 @@ session_start();
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login</title>
+        <link rel="icon" type="image/x-icon" href="images/logo.png">
 
-        <!--===============================================================================================-->	
-	    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+        
     <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
     <!--===============================================================================================-->

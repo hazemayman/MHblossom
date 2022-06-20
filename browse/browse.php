@@ -8,7 +8,8 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>book card</title>
+    <title>MH Blossoms - Browse</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
     <link rel="stylesheet" type="text/css" href="Css/style.css"/>
     <link rel="stylesheet" type="text/css" href="Css/navfooter.css"/>
     <script src="https://kit.fontawesome.com/ee580cee9f.js" crossorigin="anonymous"></script>
@@ -18,7 +19,7 @@ session_start();
     <!-- here the icon -->
     <a href="#myTopnav" id="myBtn" title="Go to top">▲</a>
     <nav class="topnav" id="myTopnav">
-            <img class="navlogo" src="./images/logo.png" alt="logo">
+            <img class="navlogo" src="../images/logo.png" alt="logo">
             <p style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p>
             <a href="../home/home.php" class="first-navigation-link">Home</a>
             <a href="../browse/browse.php" class = "active">Browse</a>
@@ -61,8 +62,8 @@ session_start();
     </nav>
 <?php
     $servername = "localhost";
-    $username = "donzoma09";
-    $password = "lambergeneko09";
+    $username = "test";
+    $password = "test123";
     $dbname = "mhbooks";
 
     // Create connection
@@ -144,7 +145,7 @@ session_start();
     <!-- footer here -->
     <footer>
         <div class="row">
-            <div class="col" style="text-align:center;"><img class="logo" src="images/logo.png" alt="logo"><br><p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p></div>
+            <div class="col" style="text-align:center;"><img class="logo" src="../images/logo.png" alt="logo"><br><p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p></div>
             <div class="col">
                 <h3>Company<div class="underline"></div></h3>
                 <p class="footerText"><a href="">About Us</a></p>
