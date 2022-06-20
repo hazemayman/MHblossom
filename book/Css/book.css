@@ -1,0 +1,124 @@
+
+.leftContainer img{
+    width:150px;
+    height: 250px;
+    margin-right: 40px;
+   
+}
+
+.mainContent{
+    margin: 80px 100px 50px 100px;
+    display: flex;
+}
+
+.summary{
+    text-align: justify;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: serif;
+    color: rgb(255, 240, 191);  
+    margin-bottom: 3rem;
+}
+.middleContainer h3 {
+    font-family: serif;
+    color: white;
+}
+
+.recommend{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.recommend img{
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.middleContainer{
+    margin-right: 40px;
+}
+
+.rightContainer h2{
+    font-family: serif;
+    color: rgb(255, 240, 191); 
+}
+.rightContainer{
+    max-width: 25rem;
+}
+.rightContainer h3{
+    font-family: serif;
+    margin-top: 20px;
+    color: rgb(255, 240, 191); 
+}
+
+hr{
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid  rgb(255, 240, 191); 
+}
+
+.rightContainer p{
+    font-family: "Lato", "Helvetica Neue", Helvetica;
+}
+
+.author p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.quotes{
+
+    max-width: 40rem;
+}
+.quotes h3{
+    width: max-content;
+    color: rgb(255, 240, 191); 
+    margin-top: 50px;
+    margin-left: -200px;
+
+}
+
+.quotes hr{
+    margin-left: -200px;
+    margin-top: 20px;
+    width: inherit;
+    color: rgb(255, 240, 191); 
+}
+
+.quotes p{
+    margin-left: -200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#more{
+    margin-top: 10px;
+    text-align: right;
+}
+
+#more:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+/* add to list button and form */
+
+.add-top-list-form{
+    width: max-content;
+    height: max-content;
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    margin-left: 10px;
+   
+}
+.add-top-list-button{
+    width: 100px;
+    height: 20px;
+
+}
