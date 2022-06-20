@@ -101,7 +101,7 @@
     <body>
         <a href="#myTopnav" id="myBtn" title="Go to top">▲</a>
         <nav class="topnav" id="myTopnav">
-                <img class="navlogo" src="./images/logo.png" alt="logo">
+                <img class="navlogo" src="logo.png" alt="logo">
                 <p  style="font-size: 20px;font-family:serif; font-style: italic; margin-right: 20px;">Blossoms</p>
                 <a href="../home/home.php" class="first-navigation-link">Home</a>
                 <a href="../browse/browse.php">Browse</a>
