@@ -1,4 +1,4 @@
-# MHblossom
+# MH Blossoms
 
 MH Blossoms is a website that contains all the information about books. It’s a website that has books, quotes, summaries, news, interviews, and authors. It can be thought of as the social media of the reading community. It’s based on the same idea of goodreads. 
 
