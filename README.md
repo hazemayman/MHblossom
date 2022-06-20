@@ -16,7 +16,7 @@ Username: test
 Password: test123
 ![image](https://user-images.githubusercontent.com/64710994/174628570-ec977687-5b8e-47de-add5-492a8e02f557.png)
 4.	Go to the location of xampp folder on your PC then, go to htdocs folder. Download the project code here and extract the folder.
-5.	Open the cmd and install pip install mysql-connector-python.
-6.	Open the databse folder and run the databse.exe application. This is the database of MH Blossoms.
+5.	Open the databse folder and run the databse.exe application. This is the database of MH Blossoms.
 ![image](https://user-images.githubusercontent.com/64710994/174628592-357b1ea7-5991-4a9f-9581-039e79ad8bf9.png)
+6.	Open the config file and change the username and password to the username and password you created. Then, open each php page and change the username and password as well. Skip this step if you created the new user with the credentials mentioned above.
 7.	Now, everything is set up. To open the project, type http://localhost/MHBlossoms/home/home.php in your browser. The homepage should open. 
